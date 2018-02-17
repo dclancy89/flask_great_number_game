@@ -1,0 +1,53 @@
+.container {
+	width:800px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+input {
+	display: block;
+	margin: 0.5rem auto;
+}
+
+input[type="text"] {
+	border: 2px solid black;
+	font-size: 20px;
+}
+
+
+.feedback {
+	width: 400px;
+	height: 400px;
+	text-align: center;
+	color: white;
+	margin: 0 auto 2rem;
+	display: table;
+}
+
+.feedback h2 {
+	margin-top: 150px;
+	margin-bottom: 30px;
+}
+
+.hidden {
+	display: none;
+}
+
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.button {
+	display: table;
+	margin: 0 auto;
+	background-color: white;
+	border: 2px solid black;
+	color: black;
+	padding: 4px 8px;
+	box-shadow: 2px 2px 2px black;
+}
